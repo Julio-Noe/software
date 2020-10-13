@@ -228,11 +228,11 @@
                 <artifactId>stanfordcorenlp</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
+	    <!-- <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>snowball</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+	</dependency>-->
                <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>validator</artifactId>
@@ -259,11 +259,11 @@
                 <artifactId>conll</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <dependency>
+	    <!--<dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>opennlp</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+	    </dependency>-->
 
             <!--Junits-->
             <dependency>
@@ -403,7 +403,7 @@
       <id>central</id>
       <name>Maven Repository Switchboard</name>
       <layout>default</layout>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
@@ -440,7 +440,7 @@
     <pluginRepository>
       <id>central</id>
       <name>Maven Plugin Repository</name>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <layout>default</layout>
       <snapshots>
         <enabled>false</enabled>
@@ -450,7 +450,7 @@
       </releases>
     </pluginRepository>
 
-  <pluginRepository>
+    <!-- <pluginRepository>
             <id>maven.codehaus.plugin.snapshots</id>
             <name>Codehaus plugin Repository</name>
             <url>https://nexus.codehaus.org/content/repositories/public</url>
@@ -460,8 +460,8 @@
             <releases>
                 <enabled>true</enabled>
             </releases>
-        </pluginRepository>
-    </pluginRepositories>
+    </pluginRepository>-->
+    </pluginRepositories> 
     <distributionManagement>
         <repository>
             <id>maven.aksw.internal</id>

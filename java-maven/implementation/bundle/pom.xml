@@ -15,20 +15,20 @@
 
 	<dependencies>
 
-		  <dependency>
+		<!--		  <dependency>
             <groupId>${project.parent.groupId}</groupId>
             <artifactId>snowball</artifactId>
-        </dependency>
+		</dependency>-->
         
 		 <dependency>
             <groupId>${project.parent.groupId}</groupId>
             <artifactId>stanfordcorenlp</artifactId>
         </dependency>
         
-         <dependency>
+	<!-- <dependency>
             <groupId>${project.parent.groupId}</groupId>
             <artifactId>opennlp</artifactId>
-        </dependency>
+	</dependency> -->
         
        
 
